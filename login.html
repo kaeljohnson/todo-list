@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="enter.js" type="text/javascript">
+    <link rel="import" href="createCredentials.html"></link>
+    
+    </script>
+</head>
+<body>
+    <div class="div11">
+        <form onsubmit="return buttonClick()" action="userProfile.html">
+        <!--Incorrect info warnings-->
+            <h2 id="todoCred">Todo List Login:</h2>
+            <input type="text" id="text1" placeholder="Username">
+            <label id="label1" style="color: red; visibility: hidden;">Invalid Username</label>
+            <br>
+            <input type="password" id="text2" placeholder="Password">
+            <label id="label2" style="color: red; visibility: hidden">Invalid Password</label>
+            <br>
+
+            <button  type="submit" onclick="buttonClick()" id="btn1" >Enter</button>
+        
+            <h3 id="heading2"></h3>
+            <h3 id="alrt1"></h3>
+        </form>
+    </div>
+    
+</body>
+</html> 

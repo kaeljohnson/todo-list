@@ -1,0 +1,51 @@
+.div1{
+    margin: auto;
+    width: 40%;
+    border: 2px solid rgba(64, 87, 189, 0.582);
+    border-radius: 12px;
+    background: rgba(64, 87, 189, 0.582);
+}
+.div2{
+    margin: auto;
+    text-align: left;
+    width: 40%;
+    border: 2px solid rgba(130, 241, 66, 0.514);;
+    border-radius: 12px;
+    background: rgba(130, 241, 66, 0.514);
+}
+.div3{
+    margin: auto;
+    text-align: left;
+    width: 40%;
+    border: 2px solid rgba(247, 42, 42, 0.479);;
+    border-radius: 12px;
+    background: rgba(247, 42, 42, 0.479);
+}
+.div11{
+    margin: auto;
+    width: 40%;
+    border: 2px solid rgba(64, 87, 189, 0.582);
+    border-radius: 12px;
+    background: rgba(64, 87, 189, 0.582);
+}
+#AddItem{
+    margin-left: 10px;
+}
+body{
+    background-color: gray;
+}
+#Event, #Day, #Time, #Add{
+    margin-left: 10px;
+}
+#todoHeader{
+    margin-left: 10px; 
+}
+#doneHeader{
+    margin-left: 10px;
+}
+#currentDate{
+    text-align: center;
+}
+#createUname, #createPword, #createNum, #createEmail, #btn, #todoCred, #text1, #text2, #btn1 {
+    margin-left: 10px;
+}
